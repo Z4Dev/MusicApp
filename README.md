@@ -1,11 +1,4 @@
 
-# Music Player
-
-Este projeto foi desenvolvido utilizando react com o objetivo de permitir a pesquisa, criação de playlists e permitir o utilizador ouvir 
-
-
-
-
 ## Funcionalidades
 
 - Registro/Login
@@ -35,4 +28,18 @@ Se você tiver algum feedback, por favor nos deixe saber por meio de z4kreyyt@gm
 ## Desenvolvedores
 
 - [@Z4Dev](https://www.github.com/Z4Dev)
+
+
+## Stack utilizada
+
+**Front-end:** React, TailwindCSS, Framer
+
+**Back-end:** Node, Express,Prisma
+
+
+## Roadmap
+
+- Melhorar o suporte de navegadores
+
+- Adicionar mais integrações
 
