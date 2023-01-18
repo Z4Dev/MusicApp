@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    -webkit-app-region:drag;
+}
+
+
+.register_page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/background.png');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90vw;
+}
+
+.header_title {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color:#AEA0A0;
+    font-weight: lighter;
+}
+
+.header_subtitle {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    text-decoration: solid;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.form {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_inputs {
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    transition: all linear 1s;
+}
+
+::placeholder {
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    color:#666262;
+}
+
+.icon {
+    z-index: -1;
+    position: relative;
+    color: #C1BABA;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.separator {
+    width: 300px;
+    height: 3px;
+    margin-left: 39px;
+    margin-top: 2px;
+    background-color: #767981;
+    border-radius: 3px;
+}
+
+.second_icon {
+    margin-left: 80px;
+    padding-bottom: 3px;
+}
+
+.spacing {
+    margin-top: 50px;
+}
