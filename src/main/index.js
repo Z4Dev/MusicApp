@@ -1,7 +1,8 @@
-import { app, shell, BrowserWindow,ipcMain,Menu,dialog } from 'electron'
-import { join } from 'path'
-import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/icon.png?asset'
+import { app, shell, BrowserWindow,ipcMain,Menu,dialog } from 'electron';
+import { join } from 'path';
+import { electronApp, optimizer, is } from '@electron-toolkit/utils';
+const { autoUpdater } = require("electron-updater");
+import icon from '../../resources/icon.png?asset';
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
